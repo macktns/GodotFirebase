@@ -335,7 +335,7 @@ func _on_listed_documents(listed_documents : Array):
     emit_signal("listed_documents", listed_documents)
 
 
-func _on_result_query(result : Dictionary):
+func _on_result_query(result : Array):
     emit_signal("result_query", result)
 
 
